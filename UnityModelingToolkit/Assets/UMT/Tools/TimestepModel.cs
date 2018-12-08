@@ -14,7 +14,7 @@ public abstract class TimestepModel : MonoBehaviour {
 	public float modelT = 0.0f;
 	float timescale = 1.0f;
 
-	bool threaded = true;
+	public bool threaded = true;
 	bool fastrun = true;
 	bool paused = false;
 

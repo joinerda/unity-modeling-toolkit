@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UMT\Examples\SHO\SHOModel.cs">
+    <Files>
+      <File FileName="Assets\UMT\Examples\SHO\SHOModel.cs" Line="18" Column="66" />
+      <File FileName="Assets\UMT\Examples\SHO\SHOIntegrator.cs" Line="12" Column="55" />
+      <File FileName="Assets\UMT\Tools\TimestepModel.cs" Line="17" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SHOModel : Integrator {
+public class SHOIntegrator : Integrator {
 
 	public double [] x;
 	public double k;
 	public double m;
 
 	public void setIC(double xin, double vin, double k, double m) {
-		Init (2);
+		Init (2); // Init should be called in Start or Awake
 		x = new double[2];
 		x [0] = xin;
 		x [1] = vin;
