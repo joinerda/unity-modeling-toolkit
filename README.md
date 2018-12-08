@@ -8,3 +8,5 @@ These tools are written primarily to extend numerical modeling and simulation ca
 
 Many of these tools have been developed to provide outreach opportunities to students new to programming, so that they can build a 3D numerical model and visualize it in VR in a single platform.
 
+Currently the UMT consists of a package to assist in integration of ODEs using RK4 and ABM methods, and a tool to perform timestepped actions in a thread outside of the Unity runtime loop.
+
