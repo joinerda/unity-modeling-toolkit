@@ -140,6 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 534761faa76e1e840b00a5f91d569678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  modelDT: 0.01
+  modelT: 0
+  threaded: 1
   thingToMove: {fileID: 1280953788}
 --- !u!4 &383412759
 Transform:
