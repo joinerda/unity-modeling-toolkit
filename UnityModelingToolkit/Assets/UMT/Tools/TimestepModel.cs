@@ -12,7 +12,6 @@ public abstract class TimestepModel : MonoBehaviour {
 	bool stepFree = true;
 	bool stepRunning = false;
 	public float modelT = 0.0f;
-	float timescale = 1.0f;
 
 	public bool threaded = true;
 	bool fastrun = true;
@@ -54,7 +53,7 @@ public abstract class TimestepModel : MonoBehaviour {
 				if (stepFree || fastrun)
 				{
 					stepRunning = true;
-					TakeStep(modelDT*timescale);
+					TakeStep(modelDT);
 					modelT += modelDT;//am I doing this twice?
 					stepRunning = false;
 				}
@@ -72,7 +71,7 @@ public abstract class TimestepModel : MonoBehaviour {
 		}
 	}
 		
-	void FixedUpdate()
+	public void FixedUpdate()
 	{
 		if (threaded)
 		{
